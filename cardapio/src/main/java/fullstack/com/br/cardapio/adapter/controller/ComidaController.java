@@ -1,0 +1,14 @@
+package fullstack.com.br.cardapio.core.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("comida")
+public class ComidaController {
+
+
+    public void getAll(){
+
+    }
+}
